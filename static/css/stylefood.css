@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.restaurant {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.restaurant:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px (0, 0, 0, 0.2);
+    border-color: #ffc107;
+
+}
+
+
+.restaurant h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+.restaurant p:first-child {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+
+.restaurant p:nth-child(2) a {
+    display: none; 
+}
+
+
+
+.restaurant button {
+    background-color: #ffc107; 
+    color: black; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.restaurant button:hover {
+    background-color: #ffa000;
+}
+
+
+
+.restaurant a {
+    color: #ffc107;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+
+.restaurant a:hover {
+    color: #ffa000; 
+}
+
+
+.restaurant img[alt="Location"],
+.restaurant img[alt="Facebook"],
+.restaurant img[alt="Instagram"],
+.restaurant img[alt="Youtube"],
+.restaurant img[alt="Website"] {
+    width: 50px; 
+    margin-right: 50px; 
+}
+
+.restaurant img[alt="Youtube"] {
+    width: 63px;
+    margin-right: 10px;
+    margin-bottom: -6px;
+    height: 64px;
+}
+
+.restaurant img[alt="Website"] {
+    width: 87px;
+    margin-right: 26px;
+    margin-left: -16px;
+}

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews-CuisineCriticVDA.org</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesreview.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head> 
+<body>
+
+<header class="dark-header">
+    <div class="container">
+       
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('review') }}">Reviews</a></li>
+                <li><a href="{{ url_for('cafes') }}">Cafes</a></li>
+                <li><a href="{{ url_for('about2') }}">About Us</a></li>
+                <li><a href="{{ url_for('contact2') }}">Contact</a></li>
+                <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<form id="reviewForm">
+    <input type="text" name="username" placeholder="Your Name" required><br>
+    <select name="cafeName" required>
+        <option value="" disabled selected>Select Cafe</option>
+        <option value="Abookka Makkani">Abookka Makkani</option>
+        <option value="Bombay Kulfi">Bombay Kulfi</option>
+        <option value="Cafe Fills">Cafe Fills</option>
+        <option value="Cakefully">Cakefully</option>
+        <option value="Depot RestoCafe">Depot RestoCafe</option>
+        <option value="DrinkSide">DrinkSide</option>
+        <option value="Fruitice">Fruitice</option>
+        <option value="Just Bake">Just Bake</option>
+        <option value="Karimbana">Karimbana</option>
+        <option value="Palooda">Palooda</option>
+        <option value="Smoocho">Smoocho</option>
+        <option value="Sweet Little Things">Sweet Little Things</option>
+        <option value="Wild Cafe">Wild Cafe</option>
+    </select><br>
+    <input type="number" name="rating" placeholder="Rating (1-5)" min="1" max="5" required><br>
+    <textarea name="comment" placeholder="Your Review" required></textarea><br>
+    <button type="submit">Submit Review</button>
+</form>
+
+<section class="reviews">
+    <div class="container">
+        <div class="filters">
+            <select name="sort">
+                <option value="Sort">Sort by:</option>
+                <option value="rating-asc">Sort by Rating (Low to High)</option>
+                <option value="rating-desc">Sort by Rating (High to Low)</option>
+                <option value="date">Sort by Date</option>
+            </select>
+            
+        </div>
+
+        
+        <div class="review">
+           
+        </div>
+    </div>
+    <div class="pagination">
+       
+    </div>
+</section>
+
+
+<footer class="dark-footer">
+    <div class="container">
+        <p>&copy; 2024 CuisineCriticVDA.org. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+

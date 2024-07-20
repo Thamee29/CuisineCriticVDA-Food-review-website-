@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuisineCriticVDA.org</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styleindex.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</head>
+<body>
+<header class="dark-header">
+    <div class="container">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logoVDA.png') }}" alt="CuisineCriticVDA">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('login2') }}">Reviews</a></li>
+                <li><a href="{{ url_for('cafes2') }}">Cafes</a></li>
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+                <li><a href="{{ url_for('login') }}">Log In</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Discover the Taste of Excellence</h1>
+            <p>Explore, Review, and Share Your Culinary Experiences in Vadakara</p>
+            <a href="{{ url_for('signup') }}" class="cta-button">Start Exploring</a>
+        </div>
+    </div>
+</section>
+
+<section class="section__container banner__container">
+    <div class="banner__card">
+       
+      <span class="banner__icon"></span>
+      <h4>Search food</h4>
+      <p>
+        Embark on a flavorful journey as you explore the diverse culinary offerings scattered across the town. From traditional South Indian delicacies to fusion street food delights, Vadakara promises to satisfy every palate with its rich and vibrant food scene.
+      </p>
+     
+    </div>
+    <div class="banner__card">
+      
+      <span class="banner__icon"><i class="ri-bowl-fill"></i></span>
+      <h4>Visit cafes</h4>
+      <p>
+        Experience the charm of Vadakara by visiting its cozy cafes, where aromatic brews and delectable treats await. Vadakara's cafe scene offers the perfect ambiance to unwind and indulge in a delightful culinary escape.
+      </p>
+     
+    </div>
+    <div class="banner__card">
+       
+      <span class="banner__icon"><i class="ri-star-smile-fill"></i></span>
+      <h4>Share experience</h4>
+      <p>
+        We invite you to be a part of our community by sharing your thoughts, ratings, stories, and feedback. Join us in celebrating the moments that matter and creating lasting connections through shared experiences.
+      </p>
+    </div>
+  </section>
+
+<footer class="dark-footer">
+    <div class="container">
+        <div class="footer-links">
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('login2') }}">Reviews</a></li>
+                <li><a href="{{ url_for('cafes2') }}">Cafes</a></li>
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+                <li><a href="{{ url_for('login') }}">Log In</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 CuisineCriticVDA.org. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafes-CuisineCriticVDA.org</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylescafes.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/drinks-script.js') }}"></script>
+</head>
+<body>
+    <section class="section__container special__container" id="special">
+      <h2 class="section__header">Select category</h2>
+        <div class="special__grid">
+          <div class="special__card">
+            <img src="{{ url_for('static', filename='images/fastfood.avif') }}"  alt="special" />
+            <h4>Fast Food</h4>
+            <p>
+              Whether you find yourself craving a quick and satisfying meal or simply seeking a convenient dining option, why not embrace the allure of fast food and embark on a culinary adventure like no other?
+            </p>
+            <div class="special__footer">
+              <button class="btn"><a href="{{ url_for('fastfood2') }}">Explore</a></button>
+            </div>
+          </div>
+          <div class="special__card">
+            <img src="{{ url_for('static', filename='images/drinks.jpg') }}"  alt="special" />
+            <h4>Drinks</h4>
+            <p>
+              Whether you're in the mood for a classic soda, a decadent milkshake, or a refreshing iced tea, why not raise a glass to the delightful world of fast food beverages and indulge in a sip of pure satisfaction?
+            </p>
+            <div class="special__footer">
+              <button class="btn"><a href="{{ url_for('drinks2') }}">Explore</a></button>
+            </div>
+          </div>
+          <div class="special__card">
+            <img src="{{ url_for('static', filename='images/dessert.avif') }}"  alt="special" />
+            <h4>Desserts</h4>
+            <p>
+              Whether you're in the mood for a classic cone, a comforting slice of pie, or an innovative sweet treat, why not indulge in the irresistible world of fast food desserts and treat yourself to a taste of pure happiness?
+            </p>
+            <div class="special__footer">
+              <button class="btn"><a href="{{ url_for('dessert2') }}">Explore</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      

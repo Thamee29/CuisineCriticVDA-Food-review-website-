@@ -1,0 +1,242 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.dark-header {
+    background-color: whitesmoke;
+    padding: 20px 0;
+    
+}
+
+.dark-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.dark-header nav {
+    margin-left: auto; 
+}
+
+.dark-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+.dark-header nav ul li a:hover {
+    color: #ffc107;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.reviews {
+    padding: 40px 0;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filters input[type="text"],
+.filters select {
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+.review {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.review .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review .user-details h3 {
+    margin: 0;
+}
+
+.review .user-details p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.review .review-content h4 {
+    margin-top: 0;
+}
+
+.review .rating {
+    margin-bottom: 10px;
+}
+
+.review .actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.review .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: white;
+    cursor: pointer;
+}
+
+
+.review {
+    margin-top: 20px;
+}
+
+
+.review-item {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.delete-button {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-button{
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+.dark-footer {
+    background-color: whitesmoke;
+    padding: 20px 0;
+}
+
+.dark-footer p {
+    margin: 0;
+    text-align: center;
+}
+
+
+#reviewForm {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#reviewForm input[type="text"],
+#reviewForm input[type="number"],
+
+#reviewForm textarea {
+    margin-bottom: 10px;
+    width: 671px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    outline: none; 
+}
+
+#reviewForm select {
+    width: 690px;
+    color: slategrey;
+    
+    margin-bottom: 10px;
+    
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    outline: none; 
+}
+
+#reviewForm button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: black;
+    cursor: pointer;
+}
+
+#reviewForm button:hover {
+    background-color: #ffa000;
+}
+
+

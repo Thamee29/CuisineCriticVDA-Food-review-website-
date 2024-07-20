@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks-CuisineCriticVDA.org</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylefood.css') }}">
+    <script src="{{ url_for('static', filename='js/sort.js') }}"></script>
+</head>
+<body>
+    <div class="cafes">
+        <div class="restaurant" id="Karimbana">
+            <h2>Karimbana</h2>
+            <p>"Karimbana is a charming oasis for refreshments, offering a delightful variety of juices and teas to quench your thirst. Despite its modest size, it caters to budget-conscious customers, providing affordable options without compromising on quality. The menu features a tempting selection of sandwiches and burgers, perfect for a quick and satisfying bite. Whether you're in the mood for a fruity concoction, a soothing cup of tea, or a hearty sandwich, Karimbana promises a flavorful experience that won't break the bank."</p>
+            <p>
+                <a href="https://maps.app.goo.gl/DMXk23Teh5b3PScK7" target="_blank"><img src="{{ url_for('static', filename='images/loc.png') }}" alt="Location"></a> 
+                <a href="https://youtu.be/sGWJcN2mzew?si=OMXkysjXrTkOILwG" target="_blank"><img src="{{ url_for('static', filename='images/youtube.webp') }}" alt="Youtube"></a>
+                <div><a href="{{ url_for('login2') }}"><button>Explore Reviews</button></a>
+                </div>
+            </p>
+        </div>
+        <div class="restaurant" id="DrinkSide">
+            <h2>DrinkSide</h2>
+            <p>"Drinkside in Vadakara offers a wide variety of drinks, including refreshing mojitos, flavorful shakes, and other enticing options, all at affordable rates. The diverse selection ensures there's something for everyone, whether you're craving a classic beverage or looking to try something new. The affordability of the drinks makes it an attractive option for locals and visitors alike, providing a budget-friendly way to enjoy delicious drinks."</p>
+            <p>
+                <a href="https://maps.app.goo.gl/PEZcznGc4q11MX2r7" target="_blank"> <img src="{{ url_for('static', filename='images/loc.png') }}" alt="Location"></a>
+                <a href="https://www.instagram.com/_drinkside/" target="_blank"><img src="{{ url_for('static', filename='images/insta.webp') }}" alt="Instagram"></a> 
+                <a href="https://youtu.be/rl39kelq6og?si=MjdnVg2lxvxHpL4w" target="_blank"><img src="{{ url_for('static', filename='images/youtube.webp') }}" alt="Youtube"></a>
+                <div><a href="{{ url_for('login2') }}"><button>Explore Reviews</button></a>
+                </div>
+            </p>
+        </div>
+        <!-- Add more cafes similarly -->
+    </div>
+</body>
+</html>

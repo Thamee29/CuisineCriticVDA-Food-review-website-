@@ -1,0 +1,272 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke; 
+    background-size: cover;
+    background-position: center;
+    color: black;
+   
+}
+
+
+.container {
+    width:90%;
+    margin: auto;
+    
+}
+
+
+
+
+.dark-header {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 0; 
+    margin: -80px; 
+}
+
+
+
+.dark-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 20px; 
+}
+
+.dark-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 20px; 
+}
+
+
+.dark-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
+
+.dark-header .logo img {
+        height: 250px;
+}
+
+.dark-header nav ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    
+}
+
+.dark-header nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.dark-header nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.dark-header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dark-header nav ul li a:hover {
+    color: #ffc107;
+}
+
+
+
+
+.hero {
+    background-color: whitesmoke;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+    
+    
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.hero-content .cta-button {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .cta-button:hover {
+    background-color: #ffdb4d;
+}
+
+
+.banner__container {
+    background-color: whitesmoke;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .banner__card {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 3rem;
+    transition: 0.3s;
+  }
+  
+  .banner__card:hover {
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner__card .banner__icon {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 5px 11px;
+    font-size: 2rem;
+    color: var(--white);
+    border-radius: 1rem;
+    height: 250px;
+  }
+  
+  .banner__card:nth-child(1) .banner__icon {
+    background-color: #ffc107;
+    box-shadow: 5px 5px 30px #ffc107;
+    background-image: url('../images/searchfood.jpg');
+  }
+  
+  .banner__card:nth-child(2) .banner__icon {
+    background-color: #ffc107;
+    box-shadow: 5px 5px 30px #ffc107;
+    background-image: url('../images/visit.jpg');
+  }
+  
+  .banner__card:nth-child(3) .banner__icon {
+    background-color: #ffc107;
+    box-shadow: 5px 5px 30px #ffc107;
+    background-image: url('../images/review.jpg');
+  }
+  
+  .banner__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .banner__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    line-height: 1.75rem;
+  }
+
+
+
+  .banner__card a span {
+    font-size: 1.25rem;
+    transition: 0.3s;
+  }
+  
+  
+
+  .banner__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+
+
+
+
+.dark-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.dark-footer ul li:last-child {
+    margin-right: 0;
+}
+
+.dark-footer ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.dark-footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 40px 0;
+}
+
+.dark-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark-footer ul li a:hover {
+    color: #ffc107;
+}
+
+.dark-footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dark-footer .copyright p {
+    font-size: 14px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+.dark-footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 40px 0;
+}
+
+.dark-footer .container {
+    display: flex;
+    justify-content: center;
+}

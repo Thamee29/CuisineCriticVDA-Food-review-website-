@@ -1,0 +1,145 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+.about {
+    background-color: whitesmoke;
+    color: black;
+    padding: 115px;
+
+    
+}
+
+.about .container {
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+
+
+.contact {
+    background-color: whitesmoke;
+    color: black;
+    padding: 50px 0;
+}
+
+.contact .container {
+    text-align: center;
+    
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #ffdb4d;
+}
+
+
+.dark-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.dark-footer ul li:last-child {
+    margin-right: 0;
+}
+
+.dark-footer ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.dark-footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 40px 0;
+}
+
+.dark-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark-footer ul li a:hover {
+    color: #ffc107;
+}
+
+
+
+.dark-footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dark-footer .copyright p {
+    font-size: 14px;
+}
+.dark-footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 40px 0;
+}
+
+.dark-footer .container {
+    display: flex;
+    justify-content: center;
+}
